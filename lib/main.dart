@@ -6,7 +6,7 @@ import 'package:peliculas/src/pages/pelicula_detalle.dart';
 void main() => runApp(MyApp());
  
 class MyApp extends StatelessWidget {
- 
+  
   @override
   Widget build(BuildContext context) {
 

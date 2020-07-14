@@ -42,8 +42,7 @@ class HomePage extends StatelessWidget {
       ],
     );
 
-    return SafeArea(
-      child: Scaffold(
+    return Scaffold(
           appBar: appBar,
           body: Container(
             child: Column(
@@ -53,8 +52,8 @@ class HomePage extends StatelessWidget {
                 _footer(context, appBar, mediaQuery)
               ],
             ),
-          )),
-    );
+          ))
+    ;
   }
 
   Widget _swiperTarjetas(AppBar appBar, MediaQueryData mediaQuery) {
